@@ -2,14 +2,17 @@
     margin: 1rem;
     font-size: 20px;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
 }
 
-.left-floor{
+Link{
     margin: 1rem;
+    text-decoration: none;
 }
 
-.left-floor :hover{
+Link:hover{
     border: 1px solid black;
     border-radius: 50px;
-    box-shadow: steelblue;
+    background-color: darkblue;
 }

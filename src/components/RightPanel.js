@@ -1,17 +1,17 @@
 import React from 'react';
 import './styles/RightPanel.css';
-const Rightpanel = () => {
+const Rightpanel = ({defrost,error,vrf}) => {
     return (
         <div>
             <div className='box-main'>
                 <h4>Outdoor Units</h4>
            <div className='box'>
-               <div className='off'>Defrost: OFF</div>
-               <div className='module'>Interface Module Error</div>
+               <div className='off'>Defrost: {defrost}</div>
+               <div className='module'>{error}</div>
                <div className='vrf'>
-                   <div>VRF1</div>
-                   <div>VRF2</div>
-                   <div>VRF3</div>
+                   {vrf.map((e,i)=>{
+                       return <div key={i}>VRF{e}</div>
+                   })}
                </div>
                </div>
            </div>

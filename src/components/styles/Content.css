@@ -1,7 +1,13 @@
+.Content{
+    margin-bottom: 30px;
+}
+
 .room{
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: #fff;
+    margin: 7px;
 }
 
 .block{

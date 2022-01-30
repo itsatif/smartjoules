@@ -5,27 +5,27 @@ import Leftpanel from './components/LeftPanel';
 import Rightpanel from './components/RightPanel';
 import Content from './components/Content';
 import data from './data.json'
-
+import Content2 from './components/Content2';
+import Content3 from './components/Content3';
+import outdoor from './outdoor.json';
 
 
 const App = () => {
-  const [floor,setFloor] = useState([]);
-     console.log(data[0].R1[0].floor);
-     useEffect(()=>{
-      setFloor(data[0].R1);
-      console.log(floor);
-     })
+  
   return (
     <div className='main'>
       <div><NavBar /></div>
       <div id="container">
       <div id='left-floor'><Leftpanel /></div>
-      <div>
-        {floor.map((ele,i)=>{
-          return <Content key={i} name={ele.floor} />
-        })}
+      <div id='Box'><Content/>
+      <Content2 />
+      <Content3/>
       </div>
-      <div><Rightpanel/></div>
+      <div>{
+        outdoor.map((ele,i)=>{
+          return <Rightpanel key={i} defrost={ele.Defrost} error={ele.Error} vrf={ele.VRF}/>
+        })
+        }</div>
       </div>
     </div>
   );
