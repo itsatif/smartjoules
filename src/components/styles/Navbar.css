@@ -1,0 +1,28 @@
+#nav-bar{
+    display: flex;
+    justify-content:space-between;
+}
+
+#opt{
+    margin: 20px;
+}
+
+#input{
+    outline: none;
+    margin: 20px;
+    display: flex;
+}
+
+#input input{
+    width: 300px;
+    border-radius: 50px;
+}
+
+button{
+    height: 20px;
+    width: 10px;
+}
+
+#icon{
+    margin: 20px;
+}
