@@ -1,0 +1,222 @@
+[
+    {
+        "R1": [
+            {
+                "floor": "2nd Floor",
+                "fid": 2,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp 1": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "4th Floor",
+                "fid": 4,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "8th Floor",
+                "fid": 8,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "R2": [
+            {
+                "floor": "1st Floor",
+                "fid": 1,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20,
+                        "SupplyAirtemp": 20,
+                        "Areatemp": 21.5,
+                        "AreaHumidity": 80,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "2nd Floor",
+                "fid": 2,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "8th Floor",
+                "fid": 8,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            }
+        ]
+    }
+]
