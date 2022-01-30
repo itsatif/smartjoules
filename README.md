@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+dependencies install
+npm i @djthoms/pretty-checkbox pretty-checkbox-react
+npm i pretty-checkbox pretty-checkbox-react
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
