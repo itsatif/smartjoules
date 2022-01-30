@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     background-color:azure;
-    overflow: hidden;
+    overflow: visible;
 }
 
+
 #Box{
-    height: 100%;
     overflow: visible;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #left-floor{
-    width: 12rem;
+    width: 15rem;
 }
 
 

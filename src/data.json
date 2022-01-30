@@ -1,9 +1,9 @@
 [
     {
-        "Building1": [
+        "Building": [
             {
                 "floor": "2nd Floor",
-                "fid": 2,
+                "id": 1,
                 "Room": [
                     {
                         "id": 1,
@@ -45,7 +45,7 @@
             },
             {
                 "floor": "4th Floor",
-                "fid": 4,
+                "id": 2,
                 "Room": [
                     {
                         "id": 1,
@@ -78,7 +78,7 @@
             },
             {
                 "floor": "8th Floor",
-                "fid": 8,
+                "id": 3,
                 "Room": [
                     {
                         "id": 1,
@@ -121,7 +121,249 @@
         ]
     },
     {
-        "Building2": [
+        "Building": [
+            {
+                "floor": "1st Floor",
+                "id": 1,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20,
+                        "Areatemp": 21.5,
+                        "AreaHumidity": 80,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "2nd Floor",
+                "id": 2,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "8th Floor",
+                "id": 8,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Building": [
+            {
+                "floor": "3rd Floor",
+                "id": 1,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20,
+                        "Areatemp": 21.5,
+                        "AreaHumidity": 80,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "Ot": "OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "5th Floor",
+                "id": 2,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "Ward",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            },
+            {
+                "floor": "7th Floor",
+                "fid": 3,
+                "Room": [
+                    {
+                        "id": 1,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 2,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":false
+                    },
+                    {
+                        "id": 3,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    },
+                    {
+                        "id": 4,
+                        "SETTemp": 20.6,
+                        "Ot": "Cardiac OT",
+                        "SupplyAirtemp": 20.8,
+                        "Areatemp": 21.2,
+                        "AreaHumidity": 60,
+                        "status":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Building": [
             {
                 "floor": "1st Floor",
                 "fid": 1,
@@ -198,249 +440,7 @@
                 ]
             },
             {
-                "floor": "8th Floor",
-                "fid": 8,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 4,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Building3": [
-            {
-                "floor": "1st Floor",
-                "fid": 1,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20,
-                        "Areatemp": 21.5,
-                        "AreaHumidity": 80,
-                        "status":true
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 4,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            },
-            {
-                "floor": "2nd Floor",
-                "fid": 2,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            },
-            {
-                "floor": "8th Floor",
-                "fid": 8,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 4,
-                        "SETTemp": 20.6,
-                        "Ot": "Cardiac OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "Building4": [
-            {
-                "floor": "1st Floor",
-                "fid": 1,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20,
-                        "Areatemp": 21.5,
-                        "AreaHumidity": 80,
-                        "status":true
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 4,
-                        "SETTemp": 20.6,
-                        "Ot": "OT",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            },
-            {
-                "floor": "2nd Floor",
-                "fid": 2,
-                "Room": [
-                    {
-                        "id": 1,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":false
-                    },
-                    {
-                        "id": 2,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    },
-                    {
-                        "id": 3,
-                        "SETTemp": 20.6,
-                        "Ot": "Ward",
-                        "SupplyAirtemp": 20.8,
-                        "Areatemp": 21.2,
-                        "AreaHumidity": 60,
-                        "status":true
-                    }
-                ]
-            },
-            {
-                "floor": "8th Floor",
+                "floor": "3rd Floor",
                 "fid": 8,
                 "Room": [
                     {

@@ -3,23 +3,20 @@ import NavBar from './components/NavBar';
 import './App.css'
 import Leftpanel from './components/LeftPanel';
 import Rightpanel from './components/RightPanel';
-import Content from './components/Content';
-import data from './data.json'
-import Content2 from './components/Content2';
-import Content3 from './components/Content3';
 import outdoor from './outdoor.json';
-
+import Buildings from './components/Buildings';
+import Wrapper from './context/Wrapper';
+import { HashRouter } from "react-router-dom";
 
 const App = () => {
-  
   return (
+    <Wrapper>
+      <HashRouter>
     <div className='main'>
-      <div><NavBar /></div>
+      <div id="nav"><NavBar /></div>
       <div id="container">
       <div id='left-floor'><Leftpanel /></div>
-      <div id='Box'><Content/>
-      <Content2 />
-      <Content3/>
+      <div id='Box'><Buildings/>
       </div>
       <div>{
         outdoor.map((ele,i)=>{
@@ -28,6 +25,8 @@ const App = () => {
         }</div>
       </div>
     </div>
+    </HashRouter>
+    </Wrapper>
   );
 }
 

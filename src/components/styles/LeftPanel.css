@@ -6,12 +6,14 @@
     flex-direction: column;
 }
 
-Link{
-    margin: 1rem;
+.left-floor{
     text-decoration: none;
+    margin: 2rem;
+    font-size: 30px;
+    font-weight: 600;
 }
 
-Link:hover{
+.left-floor:hover{
     border: 1px solid black;
     border-radius: 50px;
     background-color: darkblue;

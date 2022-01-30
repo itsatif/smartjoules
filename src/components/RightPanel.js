@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles/RightPanel.css';
+import SettingsCellIcon from '@mui/icons-material/SettingsCell';
+
 const Rightpanel = ({defrost,error,vrf}) => {
     return (
         <div>
@@ -10,7 +12,7 @@ const Rightpanel = ({defrost,error,vrf}) => {
                <div className='module'>{error}</div>
                <div className='vrf'>
                    {vrf.map((e,i)=>{
-                       return <div key={i}>VRF{e}</div>
+                       return <div key={i}><div><SettingsCellIcon/></div><div>VRF{e}</div></div>
                    })}
                </div>
                </div>

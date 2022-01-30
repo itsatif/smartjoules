@@ -23,6 +23,7 @@ select{
     width: 300px;
     border-radius: 50px;
     height: 30px;
+    position: sticky;
 }
 
 button{

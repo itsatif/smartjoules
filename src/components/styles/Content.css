@@ -19,3 +19,11 @@
     margin: 10px;
     padding: 5px;
 }
+.block1{
+    margin: 10px;
+    padding: 5px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
