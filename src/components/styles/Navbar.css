@@ -17,13 +17,14 @@ select{
     outline: none;
     margin: 20px;
     display: flex;
+    border: 1px solid #000000;
+    border-radius: 20px;
 }
 
-#input input{
-    width: 300px;
-    border-radius: 50px;
+#input Input{
+    width: 20rem;
     height: 30px;
-    position: sticky;
+    position: sticky;  
 }
 
 button{
@@ -33,4 +34,9 @@ button{
 
 #icon{
     margin: 20px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
 }

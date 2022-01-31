@@ -14,9 +14,9 @@ const Leftpanel = () => {
     }
     return (
         <div id='left-panel'>
-            <Link  className='left-floor' to='/' onClick={()=>{selFloor('#EF')}}>{floor[2]}</Link>
-            <Link className='left-floor' to='/' onClick={()=>{selFloor('#FF')}}>{floor[1]}</Link>
-            <Link className='left-floor' to='/' onClick={()=>{selFloor('#SF')}}>{floor[0]}</Link>
+            <Link  className='left-floor' to='/' onClick={()=>{selFloor('#EF')}}><li>{floor[2]}</li></Link>
+            <Link className='left-floor' to='/' onClick={()=>{selFloor('#FF')}}><li>{floor[1]}</li></Link>
+            <Link className='left-floor' to='/' onClick={()=>{selFloor('#SF')}}><li>{floor[0]}</li></Link>
         </div>
     );
 }

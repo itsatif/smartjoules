@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color:azure;
+    background: transparent;
     overflow: visible;
 }
 
@@ -17,7 +18,87 @@
 }
 
 #left-floor{
-    width: 15rem;
+    width: 18rem;
 }
+
+@media all and (max-width:600px){
+    .box-main{
+        display: none;
+    }
+    .left-floor{
+        display: none;
+    }
+    .main{
+        font-size: 0.6rem;
+    }
+    #icon{
+        display: none;
+    }
+    #box{
+        margin-left: 30px;
+    }
+    #input Input{
+        width: 100px;
+    }
+    #box,.room,.faderoom,.block,.block1,.blocklast{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .Content {
+      justify-content: center;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .Content{
+      font-size: 0.6rem;
+      font-weight: 100;
+  }
+  #box,.room,.faderoom,.block,.block1,.blocklast{
+    width: 100%;
+}
+#box{
+    margin-left: 20px;
+}
+  .box-main{
+      display: none;
+  }
+  #left-floor{
+   display: none;
+  }
+}
+    
+@media all and (max-width : 1080px){
+    #left-floor{
+        width: 20%;
+    }
+    #Box{
+        width: 60%;
+    }
+    .box-main{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #box{
+        font-size: 0.1rem;
+    }
+    #box,.room,.faderoom,.block,.block1,.blocklast{
+        width: 100%;
+    }
+    #input Input{
+        width: 50%;
+    }
+    #opt{
+        justify-content: flex-end;
+    }
+}
+
+
+
+
 
 

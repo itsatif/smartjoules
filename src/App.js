@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React  from 'react';
 import NavBar from './components/NavBar';
-import './App.css'
+import './App.css';
 import Leftpanel from './components/LeftPanel';
 import Rightpanel from './components/RightPanel';
 import outdoor from './outdoor.json';
@@ -13,7 +13,7 @@ const App = () => {
     <Wrapper>
       <HashRouter>
     <div className='main'>
-      <div id="nav"><NavBar /></div>
+      <div id="nav"><NavBar/></div>
       <div id="container">
       <div id='left-floor'><Leftpanel /></div>
       <div id='Box'><Buildings/>
