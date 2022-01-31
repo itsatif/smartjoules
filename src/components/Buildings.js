@@ -27,7 +27,7 @@ const Buildings = () => {
             <h4>Circuit</h4>
            <h2>{flr[0]}:Indoor Units</h2>
            {room.map((ele,i)=>{
-               return <Floor key={i} id={ele.id} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
+               return <Floor key={i} id={ele.id} st={ele.SETTemp} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
            })}
            
         </div>
@@ -35,7 +35,7 @@ const Buildings = () => {
             <h4>Circuit</h4>
            <h2>{flr[1]}:Indoor Units</h2>
            {room1.map((ele,i)=>{
-               return <Floor key={i} id={ele.id} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
+               return <Floor key={i} id={ele.id} st={ele.SETTemp} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
            })}
            
         </div>
@@ -43,7 +43,7 @@ const Buildings = () => {
             <h4>Circuit</h4>
            <h2>{flr[2]}:Indoor Units</h2>
            {room2.map((ele,i)=>{
-               return <Floor key={i} id={ele.id} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
+               return <Floor key={i} id={ele.id} st={ele.SETTemp} Ot ={ele.Ot} sairtem={ele.SupplyAirtemp} at={ele.Areatemp} ah={ele.AreaHumidity} status={ele.status}/>
            })}
            
         </div>
