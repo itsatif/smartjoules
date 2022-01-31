@@ -8,7 +8,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Input from '@mui/material/Input';
 import { InputAdornment } from '@material-ui/core'
 import dataContext from '../context/Context';
-import { Link } from 'react-router-dom';
+
 
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
                 </InputAdornment>} disableUnderline onChange={(e) => setKeyword(e.target.value)}></Input>
 
             </div>
-            <div id='icon'><Link to='/'><QrCodeIcon/></Link></div>
+            <div id='icon'><a href='https://github.com/itsatif/smartjoules'><QrCodeIcon/></a></div>
         </div>
     );
 }

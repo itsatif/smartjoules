@@ -6,7 +6,7 @@ import dataContext from '../context/Context';
 const Leftpanel = () => {
     const[click,setClick] = useState(false);
     const {floor} = useContext(dataContext);
-    console.log(floor);
+    //console.log(floor);
     function selFloor(e){
             const select = document.querySelector(e);
             select.scrollIntoView({ behavior: 'smooth', block: 'start' });
